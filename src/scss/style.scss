@@ -1,0 +1,37 @@
+/* --------------------------------------------------------
+*
+* ______ _          _     ___  ___      _   _            
+* | ___ (_)        | |    |  \/  |     | | | |           
+* | |_/ /___  _____| |___ | .  . | __ _| |_| |_ ___ _ __ 
+* |  __/| \ \/ / _ \ / __|| |\/| |/ _` | __| __/ _ \ '__|
+* | |   | |>  <  __/ \__ \| |  | | (_| | |_| ||  __/ |   
+* \_|   |_/_/\_\___|_|___/\_|  |_/\__,_|\__|\__\___|_|   
+*
+* Like our code? Get in touch & digitise today
+* Site: pixelsmatter.io                                               
+* Email: hello@pixelsmatter.io   
+*
+------------------------------------------------------- */
+
+
+/*
+* Declare character set
+*/
+
+@charset 'UTF-8';
+
+
+/*
+* Using a variant of the 7-1 SCSS architecture                                   
+* Import root files; these will then import files from the relevant directory
+* Double underscore prefix is used to denote root files
+* Order of imports ensures we can use everything we need where we need to
+*/
+
+@import 'abstracts/_abstracts',
+'vendor/_vendor',
+'base/_base',
+'layouts/_layouts',
+'components/_components',
+'pages/_pages',
+'themes/_themes';

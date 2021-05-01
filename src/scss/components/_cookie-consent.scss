@@ -1,0 +1,56 @@
+
+.cookie-consent {
+	align-items: center;
+	background: color('black');
+	display: flex;
+	justify-content: center;
+	left: 0;
+	padding-bottom: calc-rem(12px);
+	padding-top: calc-rem(12px);
+	opacity: 0;
+	position: fixed;
+	text-align: left;
+	top: 0;
+	transition: opacity 0.4s;
+	width: 100%;
+	will-change: opacity;
+	z-index: z-index('cookie-consent');
+
+	&__text,
+	&__accept {
+		font-size: calc-rem(15px);
+		line-height: 1.4;
+	}
+
+	&__text {
+		margin: 0 calc-rem(10px) 0;
+	}
+
+	&__accept {
+		border-bottom: calc-rem(2px) solid color('purple');
+		font-weight: 500;
+		line-height: 1;
+		padding: 0;
+		transition: border-color 0.4s;
+		white-space: nowrap;
+		will-change: border-color;
+
+		&:hover,
+		&:focus {
+			border-color: color('persian-rose');
+		}
+	}
+
+	&--loaded {
+		opacity: 1;
+	}
+
+	&--accepted {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	@include sm {
+		text-align: center;
+	}
+}

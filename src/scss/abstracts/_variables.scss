@@ -1,0 +1,67 @@
+/*
+* Rem units root value
+*/
+
+$rem-root-px: 16px;
+
+
+/*
+* Breakpoints map/array
+* Small, medium, large & extra large
+*/
+
+$breakpoints: (
+	'sm': 576px,
+	'md': 768px,
+	'lg': 992px,
+	'xl': 1200px,
+);
+
+
+/*
+* Container gutters map/array
+* Extra small, small, medium, large & extra large
+*/
+
+$container-gutters: (
+	'xs': 15px,
+	'sm': 15px,
+	'md': 30px,
+	'lg': 30px,
+	'xl': 30px,
+);
+
+
+/*
+* Fonts map/array
+*/
+
+$fonts: (
+	'montserrat': 'Montserrat, sans-serif',
+);
+
+
+/*
+* Z-Indexes map/array
+* Keep track of z-indexes and prevent 1234, 9999, etc
+*/
+
+$z-indexes: (
+	'cookie-consent': 2000,
+	'footer': 1000,
+	'js-notice': 2000,
+);
+
+
+/*
+* Colors map/array
+*/
+
+$colors: (
+	'black': #000,
+	'cod-grey': #0D0D0D,
+	'ghost': #C7CED6,
+	'persian-rose': #F72585,
+	'purple': #560BAD,
+	'white': #FFF,
+);
