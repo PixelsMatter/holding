@@ -1,7 +1,7 @@
 {
-	"name": "gatsby-starter",
+	"name": "holding",
 	"private": true,
-	"description": "The PixelsMatter Gatsby starter",
+	"description": "The PixelsMatter holding page",
 	"version": "0.1.0",
 	"author": "PixelsMatter <hello@pixelsmatter.io>",
 	"dependencies": {
@@ -35,8 +35,7 @@
 	},
 	"keywords": [
 		"gatsby",
-		"template",
-		"starter",
+		"holding",
 		"pixelsmatter"
 	],
 	"license": "0BSD",
@@ -51,9 +50,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/pixelsmatter/gatsby-starter"
+		"url": "https://github.com/pixelsmatter/holding"
 	},
 	"bugs": {
-		"url": "https://github.com/pixelsmatter/gatsby-starter/issues"
+		"url": "https://github.com/pixelsmatter/holding/issues"
 	}
 }

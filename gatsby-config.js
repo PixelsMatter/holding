@@ -2,9 +2,9 @@
 module.exports = {
 	siteMetadata: {
 		title: `PixelsMatter`,
-		description: `Gatsby starter`,
+		description: `Site Coming Soon`,
 		author: `@pixelsmatter`,
-		siteUrl: `https://pixelsmatter-gatsby-starter.netlify.app`,
+		siteUrl: `https://pixelsmatter.io`,
 		domain: `pixelsmatter.io`,
 		humans: `humans.txt`,
 	},
