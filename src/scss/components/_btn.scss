@@ -1,8 +1,10 @@
 
 .btn {
 	background: linear-gradient(to right, color('purple'), color('persian-rose'));
+	border: 0;
 	border-radius: calc-rem(30px);
 	color: color('white');
+	cursor: pointer;
 	display: inline-block;
 	font-size: calc-rem(15px);
 	font-weight: 500;
@@ -14,6 +16,10 @@
 	width: 100%;
 	white-space: nowrap;
 	will-change: box-shadow;
+
+	&__icon {
+		margin: 0 calc-rem(5px) 0 calc-rem(-5px);
+	}
 
 	&:hover,
 	&:focus {
@@ -28,6 +34,22 @@
 		&:focus {
 			box-shadow: rgba(247, 37, 133, 0.3) 0px calc-rem(1px) calc-rem(20px);
 		}
+	}
+
+	&--subtle {
+		background: color('cod-grey-light');
+		transition: background 0.4s;
+		will-change: background;
+
+		&:hover,
+		&:focus {
+			background: color('mineshaft');
+			box-shadow: none;
+		}
+	}
+
+	&--icon {
+
 	}
 
 	@include sm {

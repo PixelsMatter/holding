@@ -1,0 +1,25 @@
+
+.input {
+	border: 1px solid color('ghost');
+	border-radius: calc-rem(40px);
+	margin: 0 0 calc-rem(20px);
+	padding: calc-rem(15px) calc-rem(25px);
+	width: 100%;
+
+	&::placeholder {
+		color: color('ghost');
+	}
+
+	&:last-of-type {
+		margin: 0;
+	}
+
+	&:focus {
+		border-color: color('white');
+		outline: none;
+
+		&::placeholder {
+			color: color('white');
+		}
+	}
+}
