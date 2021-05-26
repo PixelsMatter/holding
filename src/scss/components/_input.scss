@@ -4,10 +4,14 @@
 	border-radius: calc-rem(40px);
 	margin: 0 0 calc-rem(20px);
 	padding: calc-rem(15px) calc-rem(25px);
+	transition: border-color 0.4s;
 	width: 100%;
+	will-change: border-color;
 
 	&::placeholder {
 		color: color('ghost');
+		transition: color 0.4s;
+		will-change: color;
 	}
 
 	&:last-of-type {

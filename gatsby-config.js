@@ -82,5 +82,12 @@ module.exports = {
 	        	environments: ['production', 'development'],
         	}
     	},
+		{
+			resolve: 'gatsby-plugin-mailchimp',
+			options: {
+				endpoint: 'https://pixelsmatter.us1.list-manage.com/subscribe/post?u=1c8a0263818b4f2cf543bb7ff&amp;id=056ec3c1fe',
+				timeout: 3500,
+			},
+		},
 	],
 }

@@ -12,6 +12,7 @@
 	margin: calc-rem(30px) calc-rem(8px) 0;
 	max-width: calc-rem(150px);
 	padding: calc-rem(15px) calc-rem(20px);
+	text-align: center;
 	transition: box-shadow 0.4s;
 	width: 100%;
 	white-space: nowrap;
@@ -46,10 +47,6 @@
 			background: color('mineshaft');
 			box-shadow: none;
 		}
-	}
-
-	&--icon {
-
 	}
 
 	@include sm {
