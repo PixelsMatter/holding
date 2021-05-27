@@ -9,7 +9,7 @@ import NewsletterForm from '../components/NewsletterForm'
 
 const NewsletterPage = () => (
 	<Layout>
-		<SEO/>
+		<SEO title='Newsletter'/>
 		<Container>
 			<NewsletterForm/>
 		</Container>
