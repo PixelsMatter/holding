@@ -76,7 +76,7 @@ module.exports = {
 	          		cookieName: 'cookies-accepted',
 	      		},
 	      		facebookPixel: {
-	        		// pixelId: 'FACEBOOK_PIXEL_ID',
+	        		pixelId: '342641460613613',
 	          		cookieName: 'cookies-accepted',
 	      		},
 	        	environments: ['production', 'development'],
