@@ -65,23 +65,11 @@ module.exports = {
 			},
 		},
 		{
-			resolve: `gatsby-plugin-gdpr-cookies`,
+			resolve: `gatsby-plugin-google-tagmanager`,
 			options: {
-				googleAnalytics: {
-	          		// trackingId: 'GOOGLE_ANALYTICS_TRACKING_ID',
-	          		cookieName: 'cookies-accepted',
-	      		},
-	    		googleTagManager: {
-	        		// trackingId: 'GOOGLE_TAG_MANAGER_TRACKING_ID',
-	          		cookieName: 'cookies-accepted',
-	      		},
-	      		facebookPixel: {
-	        		pixelId: '342641460613613',
-	          		cookieName: 'cookies-accepted',
-	      		},
-	        	environments: ['production', 'development'],
-        	}
-    	},
+				id: `GOOGLE_TAG_MANAGER_ID`,
+			},
+		},
 		{
 			resolve: 'gatsby-plugin-mailchimp',
 			options: {
