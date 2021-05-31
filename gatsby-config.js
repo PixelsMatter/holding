@@ -63,12 +63,12 @@ module.exports = {
 				},
 			},
 		},
-		{
+		/* {
 			resolve: `gatsby-plugin-google-tagmanager`,
 			options: {
 				id: `GOOGLE_TAG_MANAGER_ID`,
 			},
-		},
+		}, */
 		{
 			resolve: 'gatsby-plugin-mailchimp',
 			options: {
