@@ -10,7 +10,7 @@ import NewsletterForm from '../components/NewsletterForm'
 
 const NewsletterPage = () => (
 	<Layout>
-		<SEO title='Newsletter'/>
+		<SEO title='Newsletter | PixelsMatter'/>
 		<Container>
 			<NewsletterForm/>
 		</Container>
