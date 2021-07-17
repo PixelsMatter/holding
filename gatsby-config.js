@@ -2,11 +2,25 @@
 module.exports = {
 	siteMetadata: {
 		title: `PixelsMatter`,
-		description: `Site Coming Soon`,
-		author: `@pixelsmatter`,
+		description: `Site coming soon`,
 		siteUrl: `https://pixelsmatter.io`,
-		domain: `pixelsmatter.io`,
-		humans: `humans.txt`,
+		humansTxt: `humans.txt`,
+		openGraph: {
+			type: `website`,
+			title: `PixelsMatter`,
+			description: `Site coming soon`,
+			siteName: `PixelsMatter`,
+			url: `https://pixelsmatter.io`,
+		},
+		twitterCard: {
+			card: `summary_large_image`,
+			title: `PixelsMatter`,
+			description: `Site coming soon`,
+			creator: `@pixelsmatter`,
+			site: `@pixelsmatter`,
+			domain: `pixelsmatter.op`,
+			url: `https://pixelsmatter.io`,
+		},
 	},
 	plugins: [
 		`gatsby-plugin-preact`,
@@ -30,7 +44,7 @@ module.exports = {
 				background_color: `#0E0417`,
 				theme_color: `#0E0417`,
 				display: `standalone`,
-				icon: `src/img/logo-icon.png`,
+				icon: `src/img/favicon.png`,
 				icon_options: {
 					purpose: `any maskable`,
 				},
