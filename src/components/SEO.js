@@ -1,15 +1,9 @@
-/*
-* SEO component that queries for data with
-*  Gatsby's useStaticQuery React hook
-*
-* See: https://www.gatsbyjs.com/docs/use-static-query/
-*/
 
 // Libraries
 import React from 'react'
 import PropTypes from 'prop-types'
-import {Helmet} from 'react-helmet'
-import {graphql, useStaticQuery} from 'gatsby'
+import { Helmet } from 'react-helmet'
+import { graphql, useStaticQuery } from 'gatsby'
 
 // Images
 import socialPreview from '../img/social/preview.jpg'

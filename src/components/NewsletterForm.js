@@ -1,6 +1,7 @@
+
 // Libraries
 import React from 'react'
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 import AddToMailchimp from 'gatsby-plugin-mailchimp'
 
 // Images
