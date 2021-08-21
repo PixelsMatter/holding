@@ -18,7 +18,7 @@ Holding pages for [pixelsmatter.io](https://pixelsmatter.io) which use the [Pixe
 
 ## Installation
 
-Run the following from the root directory:
+Run the following from the project root directory:
 
  1. `npm i`
  2. `gatsby develop` (Local) or `gatsby build && gatsby serve` (Production)
