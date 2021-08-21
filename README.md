@@ -1,8 +1,8 @@
 # Holding
 
-![GitHub last commit](https://img.shields.io/github/last-commit/PixelsMatter/gatsby-starter?color=%23560bad)
-![GitHub repo size](https://img.shields.io/github/repo-size/PixelsMatter/gatsby-starter?color=%23560bad)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/PixelsMatter/gatsby-starter/Lighthouse%20CI?color=%23560bad)
+![GitHub last commit](https://img.shields.io/github/last-commit/PixelsMatter/holding?color=%23560bad)
+![GitHub repo size](https://img.shields.io/github/repo-size/PixelsMatter/holding?color=%23560bad)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/PixelsMatter/holding/Lighthouse%20CI?color=%23560bad)
 
 Holding pages for [pixelsmatter.io](https://pixelsmatter.io) which use the [PixelsMatter Gatsby Starter](https://github.com/PixelsMatter/gatsby-starter).
 
