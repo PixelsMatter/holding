@@ -7,7 +7,7 @@
 Holding pages for [pixelsmatter.io](https://pixelsmatter.io) which use the [PixelsMatter Gatsby Starter](https://github.com/PixelsMatter/gatsby-starter).
 
 
-**Project Status:** Active
+**Project Status:** Closed
 
 **Deployment:** [Netlify CI/CD](https://app.netlify.com/sites/pixelsmatter-holding/overview)
 
