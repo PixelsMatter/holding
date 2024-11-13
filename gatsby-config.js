@@ -1,4 +1,3 @@
-
 module.exports = {
 	siteMetadata: {
 		title: `PixelsMatter`,
@@ -50,15 +49,15 @@ module.exports = {
 				},
 			},
 		},
-  		{
-    		resolve: `gatsby-plugin-sass`,
-    		options: {
-      			sassOptions: {
-      				data: `@import "${__dirname}/src/scss/vendor/vendor";`,
+		{
+			resolve: `gatsby-plugin-sass`,
+			options: {
+				sassOptions: {
+					data: `@import "${__dirname}/src/scss/vendor/vendor";`,
 					includePaths: [`node_modules`],
-      			},
-    		},
-    	},
+				},
+			},
+		},
 		{
 			resolve: `gatsby-plugin-webfonts`,
 			options: {
@@ -67,26 +66,17 @@ module.exports = {
 					google: [
 						{
 							family: `Montserrat`,
-							variants: [
-								`400`,
-								`500`,
-								`700`,
-							],
+							variants: [`400`, `500`, `700`],
 						},
 					],
 				},
 			},
 		},
-		/* {
-			resolve: `gatsby-plugin-google-tagmanager`,
-			options: {
-				id: `GOOGLE_TAG_MANAGER_ID`,
-			},
-		}, */
 		{
-			resolve: 'gatsby-plugin-mailchimp',
+			resolve: "gatsby-plugin-mailchimp",
 			options: {
-				endpoint: 'https://pixelsmatter.us1.list-manage.com/subscribe/post?u=1c8a0263818b4f2cf543bb7ff&amp;id=056ec3c1fe',
+				endpoint:
+					"https://pixelsmatter.us1.list-manage.com/subscribe/post?u=1c8a0263818b4f2cf543bb7ff&amp;id=056ec3c1fe",
 				timeout: 3500,
 			},
 		},
